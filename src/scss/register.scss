@@ -1,0 +1,68 @@
+.register {
+    width: 100%;
+    height: 100%;
+    .register-box {
+        background-color: rgb(132, 0, 255);
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 35px;
+        border-radius: 30px;
+        gap: 0px;
+        background-image: linear-gradient(45deg, black, transparent);
+        
+        h2{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #ffffff;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: auto;
+            div{
+                width: 500px;
+                display: flex;
+                label{
+                    display: flex;
+                    width: 40%;
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: #ffffff;
+                }
+                input{
+                    display: flex;
+                    width: 50%;
+                    border: none;
+                    border-radius: 3px;
+                    color: black;
+                    height: 25px;
+                    padding: 3px;
+                }
+            }
+            .form-check{
+                display: flex;
+                align-items: start;
+                gap: 30px;
+                input{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+            button{
+                font-size: 18px;
+                font-weight: 500;
+                padding: 5px;
+                border-radius: 3px;
+                box-shadow: none;
+                border: none;
+            }
+        }
+    }
+
+}

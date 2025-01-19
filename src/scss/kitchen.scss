@@ -1,0 +1,36 @@
+.kitchen-card {
+    width: 100%;
+    // background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .kitchen-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 23px;
+        padding: 20px 0;
+
+        .card-div {
+            width: calc((100% / 4) - 30px);
+            padding: 10px;
+            background-color: #e7dd69 !important;
+
+            .css-xiduvl-MuiPaper-root-MuiCard-root {
+                height: 380px;
+                background-color: transparent;
+                box-shadow: none;
+            }
+        }
+
+    }
+
+}
+
+// .kitchen-container::after{
+//     content: "";
+//     flex: 1;
+// }

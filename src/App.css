@@ -1,0 +1,15 @@
+.css-5iifl-MuiPaper-root-MuiAppBar-root{
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+
+.css-95f9g5-MuiToolbar-root {
+  min-height: 64px;
+  background-image: linear-gradient(327deg, black -83%, transparent);
+}
+
+.css-153gm7s-MuiPaper-root-MuiDrawer-paper, 
+.MuiDrawer-root{
+  background-color: #1976d2 !important;
+}
